@@ -17,7 +17,7 @@ const data = {
 	handle: chalk.white('asier-ortiz'),
 	work: chalk.white('Junior Full Stack Developer'),
 	github: chalk.gray('https://github.com/') + chalk.green('asier-ortiz'),
-	web: chalk.cyan('under development...'),
+	web: chalk.cyan('https://asierortiz.dev/'),
 	npx: `${chalk.red('npx')} ${chalk.white('@asier-ortiz/card')}`,
 	labelWork: chalk.white.bold('    Work:'),
 	labelGitHub: chalk.white.bold('  GitHub:'),
@@ -50,5 +50,5 @@ const output =
 
 writeFileSync(
 	join(import.meta.dirname, 'bin/output'),
-	chalk.magenta(boxen(output, options)),
+	chalk.red(boxen(output, options)),
 );
