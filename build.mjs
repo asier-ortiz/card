@@ -15,12 +15,14 @@ const options = {
 const data = {
 	name: chalk.white('           Asier Ortiz'),
 	handle: chalk.white('asier-ortiz'),
-	work: chalk.white('Junior Full Stack Developer'),
+	work: chalk.white('ML & Web Developer'),
 	github: chalk.gray('https://github.com/') + chalk.green('asier-ortiz'),
-	web: chalk.cyan('https://asierortiz.dev/'),
+	linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('asier-ortiz'),
+	web: chalk.cyan('https://asierortiz.com/'),
 	npx: `${chalk.red('npx')} ${chalk.white('@asier-ortiz/card')}`,
 	labelWork: chalk.white.bold('    Work:'),
 	labelGitHub: chalk.white.bold('  GitHub:'),
+	labelLinkedIn: chalk.white.bold('LinkedIn:'),
 	labelWeb: chalk.white.bold('     Web:'),
 	labelCard: chalk.white.bold('    Card:'),
 };
@@ -30,6 +32,7 @@ const newline = '\n';
 const heading = `${data.name} / ${data.handle}`;
 const working = `${data.labelWork}  ${data.work}`;
 const githubing = `${data.labelGitHub}  ${data.github}`;
+const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`;
 const webing = `${data.labelWeb}  ${data.web}`;
 const carding = `${data.labelCard}  ${data.npx}`;
 
@@ -42,6 +45,8 @@ const output =
 	newline +
 	newline +
 	githubing +
+	newline +
+	linkedining +
 	newline +
 	webing +
 	newline +
