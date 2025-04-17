@@ -15,7 +15,7 @@ const options = {
 const data = {
 	name: chalk.white('           Asier Ortiz'),
 	handle: chalk.white('asier-ortiz'),
-	work: chalk.white('ML & Web Developer'),
+	work: chalk.white('AI/ML & Web Developer'),
 	github: chalk.gray('https://github.com/') + chalk.green('asier-ortiz'),
 	linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('asier-ortiz'),
 	web: chalk.cyan('https://asierortiz.com/'),
